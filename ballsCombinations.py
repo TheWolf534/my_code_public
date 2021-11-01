@@ -8,7 +8,7 @@ def ball_combinator(iC,iH,iA):
     ball_comb.append((Colour[iC],Hair[iH],Accesories[iA]))
     
     if iC != len(Colour)-1:
-        iC += 0
+        iC += 1
         ball_combinator(iC,iH,iA)
     elif iH != len(Hair)-1:
         iC = 0
